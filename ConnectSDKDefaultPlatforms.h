@@ -22,6 +22,7 @@
 
 #define kConnectSDKDefaultPlatforms (@{ \
     @"AirPlayService"     : @"ZeroConfDiscoveryProvider", \
+    @"NewAndroidService"  : @"ZeroConfDiscoveryProvider", \
     @"DIALService"        : @"SSDPDiscoveryProvider", \
     @"DLNAService"        : @"SSDPDiscoveryProvider", \
     @"NetcastTVService"   : @"SSDPDiscoveryProvider", \
